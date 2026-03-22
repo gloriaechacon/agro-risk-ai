@@ -35,7 +35,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message": "Agro Risk API running"}
+    return {"message": "Plaga Alert API running"}
 
 
 @app.post("/predict")
